@@ -1,0 +1,3 @@
+Which trip is assigned to me today?
+Where is my next checkpoint? - need to fix it
+what is my managerName

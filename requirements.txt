@@ -1,0 +1,8 @@
+streamlit
+pymongo
+langchain
+langchain-core
+langchain-community
+langchain-google-genai
+google-generativeai
+python-dotenv
