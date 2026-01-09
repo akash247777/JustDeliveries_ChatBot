@@ -7,8 +7,8 @@ from dotenv import load_dotenv
 
 # Load environment variables
 load_dotenv()
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyBg7MHeMJvxfrWY2it8WtRvAP9OytV82S8")
-MONGO_URI = os.getenv("MONGO_URI", "mongodb://admin:yourStrongPassword@34.16.116.26:27017/test?authSource=admin")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", )
+MONGO_URI = os.getenv("")
 
 # Configure Gemini
 genai.configure(api_key=GEMINI_API_KEY)
@@ -123,3 +123,4 @@ if user_query := st.chat_input("How can I help you today?"):
                 response_placeholder.error(error_msg)
                 import traceback
                 st.code(traceback.format_exc())
+
